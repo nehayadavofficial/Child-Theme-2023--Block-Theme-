@@ -1,0 +1,23 @@
+<!-- wp:template-part {"slug":"header-home","tagName":"header"} /-->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--50)">
+  <!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"documentation","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false}} -->
+  <div class="wp-block-query">
+    <!-- wp:post-template -->
+    <!-- wp:post-title {"isLink":true} /-->
+    <!-- wp:post-featured-image  {"isLink":true,"align":"wide"} /-->
+    <!-- wp:post-excerpt /-->
+    <!-- wp:separator -->
+    <hr class="wp-block-separator"/>
+    <p>test</p>
+    <!-- wp:documentation-meta {"slug":"documentation-meta","tagName" : "documentation-meta"} /-->
+    <!-- /wp:separator -->
+    <!-- wp:post-date /--><br><br>
+    <!-- /wp:post-template -->
+    </div>
+    <!-- /wp:query -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer-home","tagName":"footer"} /-->

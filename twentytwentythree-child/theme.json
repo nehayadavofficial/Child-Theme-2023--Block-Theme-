@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+     "version": 2,
+     "customTemplates": [
+        {
+            "name": "archive-docuemtation",
+             "postTypes": [
+                "page"
+             ],
+             "title": "Documentation"
+        }
+     ],
+     "templateParts": [
+		{
+			"area": "header",
+			"name": "header-home",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer-home",
+			"title": "Footer"
+		},
+      {
+			"area": "post-meta",
+			"name": "documentation-meta",
+			"title": "Meta Data"
+		}
+	]
+
+}
